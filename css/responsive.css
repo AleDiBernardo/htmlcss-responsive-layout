@@ -1,0 +1,9 @@
+@media screen and (min-width: 1024px) {
+    .header-menu > .navbar {
+        display: flex;
+    }
+
+    .header-menu > button {
+        display: none;
+    }
+}

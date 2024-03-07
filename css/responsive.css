@@ -1,5 +1,7 @@
 
 @media screen and (min-width: 426px) {
+
+    /* HERO */
     .hero .columns {
         flex-direction: row;
         justify-content: space-between;
@@ -14,6 +16,18 @@
         width: 60%;
         flex-grow: 1;
     }
+
+
+    /* BENEFIT */
+    .benefit .columns {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .benefit .columns .col {
+        width: 46%;
+    }
+
 
 
 }
@@ -44,6 +58,11 @@
     .planning .columns {
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    /* BENEFIT */
+    .benefit .columns .col {
+        width: calc(100% / 3 - 30px);
     }
 }
 

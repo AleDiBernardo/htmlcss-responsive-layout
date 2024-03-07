@@ -85,6 +85,17 @@ img {
 
 /* Testimonial Section */
 
+
+/* Benefit Section */
+.benefit {
+    background-color: violet;
+}
+
+.benefit .col {
+    /* debug */
+    background-color: lightcoral;
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                  UTILITIES                                 */
 /* -------------------------------------------------------------------------- */

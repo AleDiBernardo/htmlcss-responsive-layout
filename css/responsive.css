@@ -9,11 +9,11 @@
     }
 
     .hero .columns .col {
-        width: 30%;
+        width: calc(100% / 3 - 30px);
     }
 
     .hero .columns div.col:first-child {
-        width: 60%;
+        width: calc(100% / 3 * 2 - 30px);
         flex-grow: 1;
     }
 
@@ -25,9 +25,21 @@
         flex-wrap: wrap;
     }
     .benefit .columns .col {
-        width: 46%;
+        width: 45%;
     }
 
+    /* ABOUT US */
+    .about-us .columns {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-us .paragraph {
+        width: 60%;
+    }
+    .about-us .linkedin {
+        width: 35%;
+    }
 
 
 }

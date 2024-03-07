@@ -96,6 +96,15 @@ img {
     background-color: lightcoral;
 }
 
+/* About Us Section */
+
+.paragraph,
+.linkedin {
+    min-height: 500px;
+    background-color: lightgreen;
+
+}
+
 /* -------------------------------------------------------------------------- */
 /*                                  UTILITIES                                 */
 /* -------------------------------------------------------------------------- */

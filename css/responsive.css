@@ -41,6 +41,12 @@
         width: 35%;
     }
 
+    /* Footer & Get-Started */
+    footer .container,
+    .get-started .container {
+        width: 80%;
+    }
+
 
 }
 
@@ -76,6 +82,13 @@
     .benefit .columns .col {
         width: calc(100% / 3 - 30px);
     }
+
+    /* Footer & Get-Started */
+    footer .container,
+    .get-started .container {
+        width: 40%;
+    }
+
 }
 
 

@@ -6,11 +6,11 @@
         flex-wrap: wrap;
     }
 
-    .columns .col {
+    .hero .columns .col {
         width: 30%;
     }
 
-    .columns .col:first-child {
+    .hero .columns div.col:first-child {
         width: 60%;
         flex-grow: 1;
     }
@@ -29,6 +29,10 @@
     }
 
     .container {
+        width: 90%;
+    }
+
+    .planning .container {
         width: 80%;
     }
 

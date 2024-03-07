@@ -53,6 +53,8 @@ img {
 }
 
 /* MAIN */
+
+/* Hero Section */
 .columns  {    
     flex-direction: column;
     gap: 2rem;
@@ -66,6 +68,19 @@ img {
 
 .columns div.col:first-child {
     min-height: 600px;
+}
+
+/* Planning Section */
+.planning {
+    background-color: violet;
+}
+
+.strategic-planning,
+.app-dev {
+
+    /* debug */
+    height: 500px;
+    background-color: red;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -93,4 +108,9 @@ img {
 
 .p-30 {
     padding: 30px;
+}
+
+.subtitle {
+    font-size: calc(6vw + 0.8rem);
+    font-weight: bold;
 }

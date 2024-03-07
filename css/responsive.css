@@ -1,3 +1,23 @@
+
+@media screen and (min-width: 426px) {
+    .columns {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .columns .col {
+        width: 30%;
+    }
+
+    .columns .col:first-child {
+        width: 60%;
+        flex-grow: 1;
+    }
+
+}
+
+/* LAPTOP MEDIA QUERY */
 @media screen and (min-width: 1024px) {
     .header-menu > .navbar {
         display: flex;
@@ -6,4 +26,10 @@
     .header-menu > button {
         display: none;
     }
+
+    .container {
+        width: 80%;
+    }
 }
+
+

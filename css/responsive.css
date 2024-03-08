@@ -96,12 +96,12 @@
 
 
     /* HERO */
-    .hero .col:first-child {
+    #hero .col:first-child {
         flex-direction: row;
         align-items: flex-end;
     }
 
-    .hero .get-demo {
+    #hero .get-demo {
         width: 50%;
         padding-bottom: 30px;
     }

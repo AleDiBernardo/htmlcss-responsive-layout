@@ -4,6 +4,7 @@
     --violet-color: #9792E4;
     --white-color: #ffffff;
     --black-color: #333333;
+    --gold-color: #FDC15F;
 
     --medium: clamp(1.5rem, calc(10vw + 0.4rem), 2rem);
 }
@@ -212,7 +213,25 @@ body {
 }
 
 #get-started .medium-subtitle {
-    font-size: var(--medium);
+    font-size: calc(var(--medium ) + 20px);
+}
+
+#get-started .big-subtitle {
+    font-size: calc(var(--medium) + 50px);
+    font-weight: bold;
+    color: var(--gold-color);
+
+}
+
+#get-started .btn {
+    font-size: 30px;
+    color: var(--violet-color);
+    padding: 20px;
+    max-width: 200px;
+}
+
+#get-started #privacy-policy {
+    text-decoration: underline;
 }
 
 /* FOOTER */
@@ -224,6 +243,11 @@ footer {
 
 footer .container {
     min-height: 350px;
+}
+
+footer .violet-link {
+    text-decoration: underline;
+    color: var(--violet-color);
 }
 /* -------------------------------------------------------------------------- */
 /*                                  UTILITIES                                 */

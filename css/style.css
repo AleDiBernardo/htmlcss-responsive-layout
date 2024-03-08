@@ -4,6 +4,8 @@
     --violet-color: #9792E4;
     --white-color: #ffffff;
     --black-color: #333333;
+
+    --medium: clamp(1.5rem, calc(10vw + 0.4rem), 2rem);
 }
 
 /* RESETS */
@@ -126,12 +128,12 @@ body {
 
 .testimonial .small-subtitle {
     color: var(--black-color);
+
 }
 
 .testimonial .name {
     color: var(--white-color);
     padding-top: 20px;
-    text-transform: uppercase;
 }
 
 .testimonial .columns > p {
@@ -148,16 +150,6 @@ body {
     object-fit: cover;
 }
 
-.linkedin .avatar {
-    aspect-ratio: 1;
-    position: relative;
-}
-
-.linkedin .avatar img{
-    border-radius: 50%;
-    width: 50%;
-    object-fit: cover;
-}
 
 /* Benefit Section */
 .benefit {
@@ -178,6 +170,34 @@ body {
 
 }
 
+.linkedin .avatar {
+    aspect-ratio: 1;
+    position: relative;
+    width: 70%;
+}
+
+.linkedin .avatar img{
+    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.linkedin .avatar > i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 70px;
+}
+
+.linkedin .medium-subtitle {
+    font-size: var(--medium);
+    
+}
+
+.linkedin .btn {
+    width: 200px;
+}
+
 /* Get Started Section */
 
 .get-started {
@@ -187,6 +207,10 @@ body {
 
 .get-started .container {
     min-height: 800px;
+}
+
+.get-started .medium-subtitle {
+    font-size: var(--medium);
 }
 
 /* FOOTER */
@@ -209,6 +233,10 @@ footer .container {
 
 .just-cont-center {
     justify-content: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 .align-item-center {

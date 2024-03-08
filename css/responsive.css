@@ -2,21 +2,21 @@
 @media screen and (min-width: 768px) {
 
     /* HERO */
-    .hero .columns {
+    #hero .columns {
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
-    .hero .columns .col {
+    #hero .columns .col {
         width: calc(100% / 3 - 2rem);
     }
 
-    .hero .columns div.col:first-child {
+    #hero .columns div.col:first-child {
         width: calc(100% / 3 * 2 - 1rem);
     }
 
-    .hero .col > .img {
+    #hero .col > .img {
         width: 80%;
     }
 
@@ -24,47 +24,47 @@
 
 
     /* BENEFIT */
-    .benefit .columns {
+    #benefit .columns {
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    .benefit .columns .col {
+    #benefit .columns .col {
         width: 45%;
     }
 
     /* ABOUT US */
-    .about-us .columns {
+    #about-us .columns {
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .about-us .paragraph {
+    #about-us .paragraph {
         width: 60%;
     }
-    .about-us .linkedin {
+    #about-us .linkedin {
         width: 35%;
     }
 
     /* Footer & Get-Started */
     footer .container,
-    .get-started .container {
+    #get-started .container {
         width: 80%;
     }
 
     /* TESTIMONIAL */
 
-    .testimonial .col {
+    #testimonial .col {
         flex-direction: row;
         align-items: center;
     }
 
-    .testimonial blockquote.text {
+    #testimonial blockquote.text {
         width: 90%;
         text-align: justify;
     }
 
-    .testimonial .avatar {
+    #testimonial .avatar {
         width: 50%;
     }
     
@@ -86,19 +86,13 @@
         width: 90%;
     }
 
-    .planning .container {
-        width: 80%;
-    }
 
     .strategic-planning,
     .app-dev {
         width: 50%;
     }
 
-    .planning .columns {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+    
 
 
     /* HERO */
@@ -117,22 +111,33 @@
     }
 
     /* PLANNING */
-    .planning .app-dev img{
+
+
+    #planning .container {
+        width: 80%;
+    }
+
+    #planning .columns {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #planning .app-dev img{
         max-width: 70%;
     }
 
-    .planning .app-dev {
+    #planning .app-dev {
         width: 40%;
     }
 
-    .planning .columns {
+    #planning .columns {
         align-items: baseline;
         
     }
     
     /* Footer & Get-Started */
     footer .container,
-    .get-started .container {
+    #get-started .container {
         width: 40%;
     }
 

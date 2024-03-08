@@ -13,6 +13,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
 }
 
 /* IMG RESET */
@@ -51,7 +53,7 @@ body {
 }
 
 /* Header */
-.header {
+#header {
     position: fixed;
     top: 0;
     left: 0;
@@ -61,7 +63,7 @@ body {
     background-color: var(--blue-color);
 }
 
-.header .container {
+#header .container {
     height: 60px;
     padding: 0 20px;
 }
@@ -95,56 +97,56 @@ body {
     background-color: var(--lightblue-color);
 }
 
-.hero p {
+#hero p {
     color: var(--black-color);
     font-weight: bold;
 }
 
-.hero .col:first-child {
+#hero .col:first-child {
     padding-bottom: 0;
     gap: 1.5rem;
 }
 
-.hero .col > .img {
+#hero .col > .img {
     max-width: 300px;
 }
 
 /* Planning Section */
-.planning {
+#planning {
     background-color: var(--violet-color);
 }
 
-.planning .app-dev > .col{
+#planning .app-dev > .col{
     color: var(--black-color);
     background-color: var(--white-color);
 }
 
 /* Testimonial Section */
-.testimonial .col {
+#testimonial .col {
     background-color: var(--violet-color);
     font-size: clamp(1.1rem ,calc(3vw + 0.8rem), 1.5rem);
 }
 
 
-.testimonial .small-subtitle {
+#testimonial .small-subtitle {
     color: var(--black-color);
 
 }
 
-.testimonial .name {
+#testimonial .name {
     color: var(--white-color);
     padding-top: 20px;
 }
 
-.testimonial .columns > p {
+#testimonial .columns > p {
     color: var(--black-color);
 }
 
-.testimonial .avatar {
+#testimonial .avatar {
     aspect-ratio: 1;
 }
 
-.testimonial .avatar img{
+#testimonial .avatar img{
     border-radius: 50%;
     width: 100%;
     object-fit: cover;
@@ -152,11 +154,11 @@ body {
 
 
 /* Benefit Section */
-.benefit {
+#benefit {
     background-color: var(--violet-color);
 }
 
-.benefit .col {
+#benefit .col {
     /* debug */
     background-color: var(--white-color);
 }
@@ -200,16 +202,16 @@ body {
 
 /* Get Started Section */
 
-.get-started {
+#get-started {
     background-color: var(--violet-color);
 
 }
 
-.get-started .container {
+#get-started .container {
     min-height: 800px;
 }
 
-.get-started .medium-subtitle {
+#get-started .medium-subtitle {
     font-size: var(--medium);
 }
 

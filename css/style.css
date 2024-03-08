@@ -148,6 +148,17 @@ body {
     object-fit: cover;
 }
 
+.linkedin .avatar {
+    aspect-ratio: 1;
+    position: relative;
+}
+
+.linkedin .avatar img{
+    border-radius: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+
 /* Benefit Section */
 .benefit {
     background-color: var(--violet-color);
@@ -163,7 +174,7 @@ body {
 .paragraph,
 .linkedin {
     min-height: 500px;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 
 }
 
@@ -220,7 +231,6 @@ footer .container {
     gap: 10px;
 }
 
-
 .col-dir {
     flex-direction: column;
 }
@@ -253,6 +263,7 @@ footer .container {
 }
 
 .violet-btn {
+    width: 150px;
     background-color: var(--violet-color);
 }
 
@@ -298,8 +309,15 @@ footer .container {
 }
 
 .medium-subtitle {
-    font-size: clamp(1.5rem, calc(10vw + 0.4rem), 2.3rem) ;
+    font-size: clamp(1.5rem, calc(10vw + 0.4rem), 3.5rem) ;
     font-weight: bold;
+}
+
+.numbered-card {
+    font-size: clamp(2rem, calc(10vw + 0.4rem), 4rem) ;
+
+    font-weight: bold;
+    color: var(--violet-color);
 }
 
 .blue-color {
@@ -310,7 +328,15 @@ footer .container {
     color: var(--violet-color);
 }
 
+.black-color {
+    color: var(--black-color);
+}
+
 .white-color {
     color: var(--white-color);
+}
+
+.violet-bg {
+    background-color: var(--violet-color);
 }
 

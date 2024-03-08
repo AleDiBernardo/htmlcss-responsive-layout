@@ -16,6 +16,12 @@
         width: calc(100% / 3 * 2 - 1rem);
     }
 
+    .hero .col > .img {
+        width: 80%;
+    }
+
+    
+
 
     /* BENEFIT */
     .benefit .columns {
@@ -77,6 +83,17 @@
         justify-content: space-between;
     }
 
+
+    /* HERO */
+    .hero .col:first-child {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .hero .get-demo {
+        width: 50%;
+        padding-bottom: 30px;
+    }
     /* BENEFIT */
     .benefit .columns .col {
         width: calc(100% / 3 - 30px);

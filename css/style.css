@@ -11,7 +11,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: var(--white-color);
 }
 
 /* IMG RESET */
@@ -26,11 +25,14 @@ img {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 body {
-    padding-top: 80px;
+    padding-top: 60px;
     font-family: "PT Sans", sans-serif;
+    color: var(--white-color);
+
 }
 
 i {
@@ -108,12 +110,9 @@ i {
     background-color: var(--violet-color);
 }
 
-.strategic-planning,
-.app-dev {
-
-    /* debug */
-    height: 500px;
-    background-color: red;
+.planning .app-dev > .col{
+    color: var(--black-color);
+    background-color: var(--white-color);
 }
 
 /* Testimonial Section */
@@ -185,10 +184,21 @@ footer .container {
     gap: 30px;
 }
 
+.gap-20 {
+    gap: 10px;
+}
+
+
 .col-dir {
     flex-direction: column;
 }
 
+.circle-btn {
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .btn {
     padding: 10px;
@@ -210,14 +220,24 @@ footer .container {
     color: var(--white-color);
 }
 
+.violet-btn {
+    background-color: var(--violet-color);
+}
+
 .blue-icon {
     font-size: 80px;
     padding-right: 0;
     color: var(--blue-color);
 }
 
-.p-25 {
-    padding: 25px;
+.fa-down-long {
+    font-size: 30px;
+    padding: 10px 15px;
+
+}
+
+.p-40 {
+    padding: 40px;
 }
 
 .p-y-30 {
@@ -228,8 +248,13 @@ footer .container {
     line-height: 30px;
 }
 
-.subtitle {
+.small-subtitle {
     font-size: clamp(1.5rem, calc(3vw + 0.4rem), 2.3rem) ;
+    font-weight: bold;
+}
+
+.medium-subtitle {
+    font-size: clamp(1.5rem, calc(10vw + 0.4rem), 2.3rem) ;
     font-weight: bold;
 }
 

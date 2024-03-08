@@ -99,11 +99,26 @@
         width: calc(100% / 3 - 30px);
     }
 
+    /* PLANNING */
+    .planning .app-dev img{
+        max-width: 70%;
+    }
+
+    .planning .app-dev {
+        width: 40%;
+    }
+
+    .planning .columns {
+        align-items: baseline;
+        
+    }
+    
     /* Footer & Get-Started */
     footer .container,
     .get-started .container {
         width: 40%;
     }
+
 
 }
 

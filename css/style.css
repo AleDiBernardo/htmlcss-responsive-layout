@@ -88,7 +88,7 @@ body {
 }
 
 .columns .col {
-    min-height: 400px;
+    /* max-height: 400px; */
     border-radius: 30px;
     background-color: var(--lightblue-color);
 }
@@ -126,6 +126,12 @@ body {
 
 .testimonial .small-subtitle {
     color: var(--black-color);
+}
+
+.testimonial .name {
+    color: var(--white-color);
+    padding-top: 20px;
+    text-transform: uppercase;
 }
 
 .testimonial .columns > p {
@@ -302,5 +308,9 @@ footer .container {
 
 .violet-color {
     color: var(--violet-color);
+}
+
+.white-color {
+    color: var(--white-color);
 }
 

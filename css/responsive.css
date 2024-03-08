@@ -52,6 +52,23 @@
         width: 80%;
     }
 
+    /* TESTIMONIAL */
+
+    .testimonial .col {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .testimonial blockquote.text {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .testimonial .avatar {
+        width: 50%;
+    }
+    
+
 
 }
 

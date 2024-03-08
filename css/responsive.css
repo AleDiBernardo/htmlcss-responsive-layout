@@ -9,12 +9,11 @@
     }
 
     .hero .columns .col {
-        width: calc(100% / 3 - 30px);
+        width: calc(100% / 3 - 2rem);
     }
 
     .hero .columns div.col:first-child {
-        width: calc(100% / 3 * 2 - 30px);
-        flex-grow: 1;
+        width: calc(100% / 3 * 2 - 1rem);
     }
 
 

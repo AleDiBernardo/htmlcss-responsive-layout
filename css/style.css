@@ -166,13 +166,6 @@ body {
 
 /* About Us Section */
 
-.paragraph,
-.linkedin {
-    min-height: 500px;
-    /* background-color: lightgreen; */
-
-}
-
 .linkedin .avatar {
     aspect-ratio: 1;
     position: relative;
@@ -208,10 +201,6 @@ body {
 
 }
 
-#get-started .container {
-    min-height: 800px;
-}
-
 #get-started .medium-subtitle {
     font-size: calc(var(--medium ) + 20px);
 }
@@ -239,10 +228,6 @@ body {
 footer {
     background-color: var(--black-color);
 
-}
-
-footer .container {
-    min-height: 350px;
 }
 
 footer .violet-link {

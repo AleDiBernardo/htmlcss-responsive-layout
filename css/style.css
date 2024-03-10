@@ -1,5 +1,5 @@
 :root {
-    --blue-color: #0084FD;
+    --blue-color: #0084fd;
     --lightblue-color: #B5DDFF;
     --violet-color: #9792E4;
     --white-color: #ffffff;
@@ -44,6 +44,9 @@ body {
 
 }
 
+ul > li {
+    list-style-type: none;
+}
 
 /* LAYOUT */
 
@@ -52,6 +55,25 @@ body {
     margin: 0 auto;
 
 }
+
+/* Sidebar */
+
+.sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    background-color: rgba(0, 132, 253, 0.8);
+    width: 100%;
+    height: 100vh;
+    font-size: 25px;
+}
+
+.show {
+    display: block;
+}
+
 
 /* Header */
 #header {
@@ -69,7 +91,7 @@ body {
     padding: 0 20px;
 }
 
-.header-menu > button {
+.header-menu>button {
     font-size: 1.8rem;
     background: transparent;
     border: 0;
@@ -87,7 +109,7 @@ body {
 /* MAIN */
 
 /* Hero Section */
-.columns  {    
+.columns {
     flex-direction: column;
     gap: 2rem;
 }
@@ -108,7 +130,7 @@ body {
     gap: 1.5rem;
 }
 
-#hero .col > .img {
+#hero .col>.img {
     max-width: 300px;
 }
 
@@ -117,7 +139,7 @@ body {
     background-color: var(--violet-color);
 }
 
-#planning .app-dev > .col{
+#planning .app-dev>.col {
     color: var(--black-color);
     background-color: var(--white-color);
 }
@@ -125,7 +147,7 @@ body {
 /* Testimonial Section */
 #testimonial .col {
     background-color: var(--violet-color);
-    font-size: clamp(1.1rem ,calc(3vw + 0.8rem), 1.5rem);
+    font-size: clamp(1.1rem, calc(3vw + 0.8rem), 1.5rem);
 }
 
 
@@ -139,7 +161,7 @@ body {
     padding-top: 20px;
 }
 
-#testimonial .columns > p {
+#testimonial .columns>p {
     color: var(--black-color);
 }
 
@@ -147,7 +169,7 @@ body {
     aspect-ratio: 1;
 }
 
-#testimonial .avatar img{
+#testimonial .avatar img {
     border-radius: 50%;
     width: 100%;
     object-fit: cover;
@@ -172,13 +194,13 @@ body {
     width: 70%;
 }
 
-.linkedin .avatar img{
+.linkedin .avatar img {
     border-radius: 50%;
     width: 100%;
     object-fit: cover;
 }
 
-.linkedin .avatar > i {
+.linkedin .avatar>i {
     position: absolute;
     top: 0;
     right: 0;
@@ -187,7 +209,7 @@ body {
 
 .linkedin .medium-subtitle {
     font-size: var(--medium);
-    
+
 }
 
 .linkedin .btn {
@@ -202,7 +224,7 @@ body {
 }
 
 #get-started .medium-subtitle {
-    font-size: calc(var(--medium ) + 20px);
+    font-size: calc(var(--medium) + 20px);
 }
 
 #get-started .big-subtitle {
@@ -234,6 +256,7 @@ footer .violet-link {
     text-decoration: underline;
     color: var(--violet-color);
 }
+
 /* -------------------------------------------------------------------------- */
 /*                                  UTILITIES                                 */
 /* -------------------------------------------------------------------------- */
@@ -325,6 +348,7 @@ footer .violet-link {
 .sec-p {
     padding: 80px 40px;
 }
+
 .p-40 {
     padding: 40px;
 }
@@ -346,17 +370,17 @@ footer .violet-link {
 }
 
 .small-subtitle {
-    font-size: clamp(1.5rem, calc(3vw + 0.4rem), 2.3rem) ;
+    font-size: clamp(1.5rem, calc(3vw + 0.4rem), 2.3rem);
     font-weight: bold;
 }
 
 .medium-subtitle {
-    font-size: clamp(1.5rem, calc(10vw + 0.4rem), 3.5rem) ;
+    font-size: clamp(1.5rem, calc(10vw + 0.4rem), 3.5rem);
     font-weight: bold;
 }
 
 .numbered-card {
-    font-size: clamp(2rem, calc(10vw + 0.4rem), 4rem) ;
+    font-size: clamp(2rem, calc(10vw + 0.4rem), 4rem);
 
     font-weight: bold;
     color: var(--violet-color);
@@ -381,4 +405,3 @@ footer .violet-link {
 .violet-bg {
     background-color: var(--violet-color);
 }
-

@@ -63,7 +63,7 @@ ul > li {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 10000;
+    z-index: 9998;
     background-color: rgba(0, 132, 253, 0.8);
     width: 100%;
     font-size: 25px;
@@ -92,6 +92,10 @@ ul > li {
 
 .hide {
     display: none;
+}
+
+.overflow-hidden {
+    overflow-y: hidden;
 }
 
 /* Header */

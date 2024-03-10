@@ -146,4 +146,8 @@
         display: none;
     }
 
+    .overflow-hidden{
+        overflow-y: scroll;
+    }
+
 }
